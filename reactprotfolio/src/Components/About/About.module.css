@@ -1,0 +1,106 @@
+@import "../../vars.css";
+
+.container {
+  margin: 100px auto;
+  padding: 0 10%;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-family: var(--font-roboto);
+  border-bottom: 3px solid #9c7bff;
+  display: inline-block;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  margin-bottom: 40px; 
+}
+
+.aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.bioBox {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.7;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.bioBox p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.strengthBox {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  text-align: left;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: #ffffff; /* <-- Ensures base text color */
+}
+
+.strengthTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff; /* Force high contrast for heading */
+}
+
+
+.strengthList {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #f5f5f5; /* <-- Optional: Slightly softer white for readability */
+}
+
+.strengthList li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #f1f1f1; /* <-- Inherit from parent list */
+}
+
+.icon {
+  font-size: 48px;           /* Increased size */
+  color: #3ea6ff;            /* Bright blue for visibility */
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 8px rgba(62, 166, 255, 0.6)); /* subtle glow */
+}
+
+.bottomBox {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+  color: #f1f1f1;
+  box-shadow: 0 0 12px rgba(0,0,0,0.25);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}

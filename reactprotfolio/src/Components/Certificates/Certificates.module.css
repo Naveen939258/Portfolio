@@ -1,0 +1,114 @@
+.certSection {
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #a0aec0;
+  margin-bottom: 40px;
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Card with hover glow effect */
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.6);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.certTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1f5f9;
+}
+
+.issuer {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.description {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin: 16px 0;
+}
+
+.meta {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 16px;
+}
+
+.meta svg {
+  margin-right: 6px;
+  color: #facc15;
+}
+
+.viewBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #334155;
+  border-radius: 8px;
+  color: #f8fafc;
+  text-decoration: none;
+  border: 1px solid #475569;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.viewBtn:hover {
+  background-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}

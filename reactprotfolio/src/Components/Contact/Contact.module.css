@@ -1,0 +1,157 @@
+.contactSection {
+  padding: 50px 20px;
+  background-color: #0b1622;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.header p {
+  color: #bbb;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #00e6e6;
+}
+
+.divider {
+  height: 3px;
+  width: 80px;
+  background-color: #00e6e6;
+  margin: 15px auto;
+  border-radius: 2px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.formContainer {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1 1 350px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 300px;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  height: auto; /* No extra space below content */
+  align-self: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer; /* Whole box clickable */
+}
+
+.box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 10px rgba(0, 230, 230, 0.5);
+}
+
+.box a {
+  display: inline-block;
+  width: 100%;
+  color: #00e6e6;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+  cursor: pointer;
+}
+
+.box a:hover {
+  color: #00ffff;
+  text-shadow: 0 0 8px rgba(0, 230, 230, 0.8);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #1a2733;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #00e6e6;
+}
+
+.sendBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00e6e6;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 8px;
+  transition: background-color 0.3s;
+}
+
+.sendBtn:hover {
+  background-color: #00cccc;
+}
+
+.infoIcon {
+  color: #00e6e6;
+  margin-right: 5px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialLinks a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.socialLinks a:hover {
+  color: #00e6e6;
+}
+
+.note {
+  color: #bbb;
+  font-size: 18px;
+  line-height: 1.4;
+}
