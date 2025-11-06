@@ -15,7 +15,7 @@ export const Home = () => {
             CSE Honours Student | Architecting AI-powered automation to streamline processes and spark innovation
         </p>
         <a
-          href="https://drive.google.com/file/d/1QfmxT4dSOMIupY2mMBDPnobWFWqhmDNh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1DygFfi6pfGNVd_zMhX_mD-f6uugf-LEA/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.contactBtn}

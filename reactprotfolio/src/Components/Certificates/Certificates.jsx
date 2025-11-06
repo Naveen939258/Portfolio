@@ -16,6 +16,17 @@ const certificates = [
     logo: "/assets/certificates/redhat.jfif", // ✅ public path
     credentialUrl: "https://rhtapps.redhat.com/verify?certId=240-198-960",
   },
+ {
+  title: "NPTEL Online Certification - Programming in Java",
+  issuer: "NPTEL - IIT Kharagpur",
+  issued: "October 2023",
+  id: "NPTEL23CS74S74980009220272911",
+  description:
+    "Elite certification awarded for successfully completing the NPTEL course on Programming in Java with a consolidated score of 62%. The course covered Java fundamentals, OOP concepts, exception handling, multithreading, and JDBC.",
+  logo: "/assets/certificates/nptel.jpeg", // ✅ public path
+  credentialUrl: "https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs74/Course/NPTEL23CS74S74980009220272911.pdf"
+},
+
   {
     title: "Salesforce Certified AI Associate",
     issuer: "Salesforce",
